@@ -58,3 +58,29 @@ a{
     height: max-content;
     margin: 50px 0;
 }
+
+@keyframes oily {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.oily-bg{
+    background-size: 0 0;
+    opacity: 0;
+    transition: 0.3s ease;
+}
+
+.oily-bg:hover {
+  background: linear-gradient(-45deg, #ff6ec4, #7873f5, #4ade80, #facc15);
+  background-size: 300% 300%;
+  animation: oily 8s ease infinite;
+  opacity: 0.1;
+  border-radius: 5px;
+}
