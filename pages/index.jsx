@@ -73,7 +73,7 @@ export default function Home() {
       <Head>
         <title>Home Page - Osemen Silas</title>
       </Head>
-      <section className="relative after:absolute after:content-[''] after:top-0 after:left-0 after:h-[100%] after:w-[100%] after:bg-offBlack after:opacity-5 w-screen h-screen">
+      <section id="pc-screen" className="hidden sm:block relative after:absolute after:content-[''] after:top-0 after:left-0 after:h-[100%] after:w-[100%] after:bg-offBlack after:opacity-5 w-screen h-screen">
         <div className="h-full w-full flex relative z-10">
           <div className="h-full w-1/2 fixed top-0 left-0 flex items-center justify-center">
            <div className="h-max w-3/4">
@@ -187,7 +187,8 @@ export default function Home() {
                 <header className="h-max w-full py-10">
                   <h2 className="text-primary text-3xl font-bold">Experience</h2>
                 </header>
-                <a href="#" target="__blank" className="mb-10 w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
+                <a href="#" target="__blank" className="relative mb-10 w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
+                  <div className="absolute inset-0 oily-bg"></div>
                   <div className="w-[30%] h-max">
                     <p className="text-base text-grey">May 2025 - Present</p>
                   </div>
@@ -211,7 +212,8 @@ export default function Home() {
                     </ul>
                   </div>
                 </a>
-                <a href="#" target="__blank" className="mb-10 w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
+                <a href="#" target="__blank" className="relative mb-10 w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
+                  <div className="absolute inset-0 oily-bg"></div>
                   <div className="w-[30%] h-max">
                     <p className="text-base text-grey">2023 - Present</p>
                   </div>
