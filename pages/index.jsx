@@ -73,9 +73,9 @@ export default function Home() {
       <Head>
         <title>Home Page - Osemen Silas</title>
       </Head>
-      <section id="pc-screen" className="hidden sm:block relative after:absolute after:content-[''] after:top-0 after:left-0 after:h-[100%] after:w-[100%] after:bg-offBlack after:opacity-5 w-screen h-screen">
-        <div className="h-full w-full flex relative z-10">
-          <div className="h-full w-1/2 fixed top-0 left-0 flex items-center justify-center">
+      <section id="pc-screen" className="relative after:absolute after:content-[''] after:top-0 after:left-0 after:h-[100%] after:w-[100%] after:bg-offBlack after:opacity-5 w-screen h-screen">
+        <div className="h-full w-full block sm:flex relative z-10">
+          <div className="h-full w-full sm:w-1/2 relative sm:fixed top-0 left-0 flex items-center justify-center">
            <div className="h-max w-3/4">
             <motion.h1 
             className="text-3xl font-bold text-accent mb-10"
@@ -92,16 +92,16 @@ export default function Home() {
             <nav className="h-max w-full">
               <ul className="h-max w-max mb-10">
                 <li className="h-max w-max flex items-center group mb-4">
-                  <span className="mr-2 h-[2px] w-[75px] bg-accent rounded transition-all duration-300 group-hover:w-[100px]"></span>
-                  <Link href={"#about"} className="text-accent text-base group-hover:text-xl">About</Link>
+                  <span className="mr-2 h-[2px] w-[75px] bg-grey group-hover:bg-accent rounded transition-all duration-500 group-hover:w-[100px]"></span>
+                  <Link href={"#about"} className="text-grey group-hover:text-accent text-base group-hover:text-xl">About</Link>
                 </li>
                 <li className="h-max w-max flex items-center group mb-4">
-                  <span className="mr-2 h-[2px] w-[75px] bg-accent rounded transition-all duration-300 group-hover:w-[100px]"></span>
-                  <Link href={"#experience"} className="text-accent text-base group-hover:text-xl">Experience</Link>
+                  <span className="mr-2 h-[2px] w-[75px] bg-grey group-hover:bg-accent rounded transition-all duration-500 group-hover:w-[100px]"></span>
+                  <Link href={"#experience"} className="text-grey group-hover:text-accent text-base group-hover:text-xl">Experience</Link>
                 </li>
                 <li className="h-max w-max flex items-center group">
-                  <span className="mr-2 h-[2px] w-[75px] bg-accent rounded transition-all duration-300 group-hover:w-[100px]"></span>
-                  <Link href={"#project"} className="text-accent text-base group-hover:text-xl">Project</Link>
+                  <span className="mr-2 h-[2px] w-[75px] bg-grey group-hover:bg-accent rounded transition-all duration-500 group-hover:w-[100px]"></span>
+                  <Link href={"#project"} className="text-grey group-hover:text-accent text-base group-hover:text-xl">Project</Link>
                 </li>
               </ul>
             </nav>
@@ -161,14 +161,14 @@ export default function Home() {
             </div>
            </div>
           </div>
-          <div className="h-full w-full flex overflow-y-scroll">
-            <div className="h-full w-1/2"></div>
-            <div className="h-full w-1/2">
+          <div className="h-max sm:h-full w-full flex overflow-hidden sm:overflow-y-scroll">
+            <div className="h-full w-1/2 hidden sm:block"></div>
+            <div className="h-full w-full sm:w-1/2 px-4">
               <div id="about" className="w-full h-max">
                 <header className="h-max w-full py-10">
                   <h2 className="text-primary text-3xl font-bold">About Me</h2>
                 </header>
-                <div className="pr-10">
+                <div className="pr-0 sm:pr-10">
                   <p className="text-grey text-base text-justify mb-5">
                     I am a forward-thinking web developer with a passion for building fast, functional, and user-focused digital experiences. I work primarily with Next.js, Tailwind CSS, and PHP, blending modern front-end frameworks with powerful back-end solutions.
                   </p>
@@ -187,7 +187,7 @@ export default function Home() {
                 <header className="h-max w-full py-10">
                   <h2 className="text-primary text-3xl font-bold">Experience</h2>
                 </header>
-                <a href="#" target="__blank" className="relative mb-10 w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
+                <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
                   <div className="absolute inset-0 oily-bg"></div>
                   <div className="w-[30%] h-max">
                     <p className="text-base text-grey">May 2025 - Present</p>
@@ -212,7 +212,7 @@ export default function Home() {
                     </ul>
                   </div>
                 </a>
-                <a href="#" target="__blank" className="relative mb-10 w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
+                <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
                   <div className="absolute inset-0 oily-bg"></div>
                   <div className="w-[30%] h-max">
                     <p className="text-base text-grey">2023 - Present</p>
@@ -246,10 +246,10 @@ export default function Home() {
                 <div className="w-full h-max">
                   <h2 className="w-full h-max mb-4 text-xl text-accent font-bold">Selected Projects</h2>
                   <div className="h-max w-full">
-                    <a href="#" target="__blank" className="relative mb-10 w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
+                    <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                       <div className="absolute inset-0 oily-bg"></div>
                       <div className="w-[30%] h-max">
-                        <img src="/sreen-recorder.png" className="h-[75px] w-[100px]" alt="" />
+                        <img src="/sreen-recorder.png" className="border-2 border-grey rounded h-[75px] w-[100px]" alt="" />
                       </div>
                       <div className="w-[70%] h-max">
                         <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Iruap Screen Recorder (Screen Recorder Web App)</h2>
@@ -263,10 +263,10 @@ export default function Home() {
                         </ul>
                       </div>
                     </a>
-                    <a href="#" target="__blank" className="relative mb-10 w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
+                    <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                       <div className="absolute inset-0 oily-bg"></div>
                       <div className="w-[30%] h-max">
-                        <img src="/sreen-recorder.png" className="h-[75px] w-[100px]" alt="" />
+                        <img src="/sreen-recorder.png" className="border-2 border-grey rounded h-[75px] w-[100px]" alt="" />
                       </div>
                       <div className="w-[70%] h-max">
                         <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Iruap VTU Website (Mobile Top Up Web App)</h2>
@@ -279,10 +279,10 @@ export default function Home() {
                         </ul>
                       </div>
                     </a>
-                    <a href="#" target="__blank" className="relative mb-10 w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
+                    <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                       <div className="absolute inset-0 oily-bg"></div>
                       <div className="w-[30%] h-max">
-                        <img src="/sreen-recorder.png" className="h-[75px] w-[100px]" alt="" />
+                        <img src="/sreen-recorder.png" className="border-2 border-grey rounded h-[75px] w-[100px]" alt="" />
                       </div>
                       <div className="w-[70%] h-max">
                         <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Freelance Market Place (Afrilancer)</h2>
@@ -298,6 +298,48 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <div id="blog" className="w-full h-max">
+                <header className="h-max w-full py-10">
+                  <h2 className="text-primary text-3xl font-bold">From my Blogs</h2>
+                </header>
+                <div className="w-full h-max">
+                  <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
+                    <div className="absolute inset-0 oily-bg"></div>
+                    <div className="w-[30%] h-max">
+                      <img src="/sreen-recorder.png" className="border-2 border-grey rounded h-[75px] w-[100px]" alt="" />
+                    </div>
+                    <div className="w-[70%] h-max">
+                      <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Iruap Screen Recorder (Screen Recorder Web App)</h2>
+                      <p className="text-grey text-base">A browser-based screen recording tool that enables users to capture their screen ...</p>
+                    </div>
+                  </a>
+                  <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
+                    <div className="absolute inset-0 oily-bg"></div>
+                    <div className="w-[30%] h-max">
+                      <img src="/sreen-recorder.png" className="border-2 border-grey rounded h-[75px] w-[100px]" alt="" />
+                    </div>
+                    <div className="w-[70%] h-max">
+                      <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Iruap Screen Recorder (Screen Recorder Web App)</h2>
+                      <p className="text-grey text-base">A browser-based screen recording tool that enables users to capture their screen ...</p>
+                    </div>
+                  </a>
+                  <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
+                    <div className="absolute inset-0 oily-bg"></div>
+                    <div className="w-[30%] h-max">
+                      <img src="/sreen-recorder.png" className="border-2 border-grey rounded h-[75px] w-[100px]" alt="" />
+                    </div>
+                    <div className="w-[70%] h-max">
+                      <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Iruap Screen Recorder (Screen Recorder Web App)</h2>
+                      <p className="text-grey text-base">A browser-based screen recording tool that enables users to capture their screen ...</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <footer id="footer" className="h-max w-full py-20">
+                <div className="w-full sm:w-3/4 h-full flex items-center">
+                  <p className="text-accent text-base">© 2025 Osemen Oseobonoite. Open to full-time and freelance opportunities — <button onClick={seeForm} className="text-primary underline">Get in touch</button></p>
+                </div>
+              </footer>
             </div>
           </div>
         </div>

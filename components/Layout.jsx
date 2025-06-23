@@ -1,5 +1,3 @@
-import Header from "./Header";
-import Footer from "./Footer";
 import Head from "next/head";
 
 const Layout = ({children}) => {
@@ -12,11 +10,9 @@ const Layout = ({children}) => {
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
             <link rel="shortcut icon" href="Head_icon.png" type="image/x-icon"></link>
         </Head>
-        <Header />
         <main id="main">
             {children}
         </main>
-        <Footer />
         </>
      );
 }
