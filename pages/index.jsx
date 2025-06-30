@@ -246,7 +246,7 @@ export default function Home() {
                 <div className="w-full h-max">
                   <h2 className="w-full h-max mb-4 text-xl text-accent font-bold">Selected Projects</h2>
                   <div className="h-max w-full">
-                    <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
+                    <a href="https://recorder-lime-eight.vercel.app/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                       <div className="absolute inset-0 oily-bg"></div>
                       <div className="w-[30%] h-max">
                         <img src="/sreen-recorder.png" className="border-2 border-grey rounded h-[75px] w-[100px]" alt="" />
