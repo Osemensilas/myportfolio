@@ -157,7 +157,7 @@ export default function Home() {
               </motion.a>
             </div>
             <div className="h-max w-full">
-              <a href="#" className="text-base text-primary">Download Resume</a>
+              <a href="/new resume.docx" className="text-base text-primary">Download Resume</a>
             </div>
            </div>
           </div>
