@@ -81,7 +81,7 @@ export default function Home() {
         }
 
         try{
-          let url = "https://www.osemen.com.ng/";
+          let url = "https://www.osemen.com.ng/consult.php";
 
           const response = await axios.post(url, formData, {
             headers: {
