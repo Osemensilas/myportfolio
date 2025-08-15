@@ -84,10 +84,11 @@ export default function Home() {
           let url = "https://www.osemen.com.ng/consult.php";
 
           const response = await axios.post(url, formData, {
-            headers: {
-              'Content-Type': 'application/json',
-            },withCredentials: true
-          });
+              headers: {
+                  "Content-Type" : "application/json",
+              },withCredentials: true
+          })
+          
           console.log(response.data);
         }catch(err){
           console.log("Error submitting form: ", err);
