@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
 import Link from "next/link";
 import { useState, useEffect } from "react";
 import { motion }from 'framer-motion';
+import axios from "axios";
 //import { Image } from "next/image";
 
 const CursorSpotlight = () => {
@@ -59,32 +59,39 @@ export default function Home() {
         setFormData({...formData, [name]: value});
       }
 
-      const formSubmitted = (e) => {
+      const formSubmitted = async (e) => {
         e.preventDefault();
 
         let nameVal = /^[a-zA-Z]+(?: [a-zA-Z]+)+$/;
         let emailVal = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-        let error = false;
 
         if (!nameVal.test(formData.fullname)){
           setBookingError('Please enter a valid name');
-          error = true;
           return;
         }
 
         if (!emailVal.test(formData.email)){
           setBookingError('Please enter a valid email address');
-          error = true;
           return;
         }
 
         if (!formData.message){
           setBookingError('Please enter a message');
-          error = true;
           return;
         }
 
+        try{
+          let url = "https://www.osemen.com.ng/";
 
+          const response = await axios.post(url, formData, {
+            headers: {
+              'Content-Type': 'application/json',
+            },withCredentials: true
+          });
+          console.log(response.data);
+        }catch(err){
+          console.log("Error submitting form: ", err);
+        }
       }
 
   return (
@@ -400,7 +407,7 @@ export default function Home() {
                     <div className="w-full h-max mb-3">
                         <div className="h-max flex flex-col" style={{width: '100%'}}>
                             <label htmlFor="message" className="text-grey mb-1 hidden sm:block">Suite/Cottage:</label>
-                            <textarea name="message" className="border rounded border-grey min-h-[150px] max-h-[150px] min-w-[100%] max-w-[100%]" value={formData.message} onChange={handleChanged} id="message"></textarea>
+                            <textarea name="message" className="p-3 border rounded border-grey min-h-[150px] max-h-[150px] min-w-[100%] max-w-[100%]" value={formData.message} onChange={handleChanged} id="message"></textarea>
                         </div>
                     </div>
                 </div>
