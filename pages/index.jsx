@@ -214,7 +214,7 @@ export default function Home() {
                 <header className="h-max w-full py-10">
                   <h2 className="text-primary text-3xl font-bold">Experience</h2>
                 </header>
-                <a href="https://iruap-studio.vercel.app/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
+                <a href="https://iruap-studio.vercel.app/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col sm:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
                   <div className="absolute inset-0 oily-bg"></div>
                   <div className="w-full sm:w-[30%] h-max">
                     <p className="text-base text-grey">May 2025 - Present</p>
