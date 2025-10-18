@@ -214,14 +214,14 @@ export default function Home() {
                 <header className="h-max w-full py-10">
                   <h2 className="text-primary text-3xl font-bold">Experience</h2>
                 </header>
-                <a href="https://iruap-studio.vercel.app/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
+                <a href="https://iruhost.com" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col sm:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
                   <div className="absolute inset-0 oily-bg"></div>
-                  <div className="w-[30%] h-max">
+                  <div className="w-full sm:w-[30%] h-max">
                     <p className="text-base text-grey">May 2025 - Present</p>
                   </div>
-                  <div className="w-[70%] h-max">
-                    <h2 className="font-bold text-base text-accent mb-5">Software Engineer, Iruap Tech Studio LTD</h2>
-                    <p className="text-grey text-base mb-5">I am the Founder of Iruap, an ongoing project to build a full-service web hosting and development platform. It offers domain registration, automated hosting, SSL certificates, professional email solutions, and custom website design — all managed through a secure, user-friendly client dashboard.</p>
+                  <div className="w-full sm:w-[70%] h-max">
+                    <h2 className="font-bold text-base text-accent mb-5">Founder, Iruap Tech Studio LTD</h2>
+                    <p className="text-grey text-base mb-5 text-justify">I am the Founder of Iruap, a full-service web hosting and development platform. It provides domain registration, automated hosting, SSL certificates, professional email solutions, and both custom and template-based website design — all managed through a secure and intuitive client dashboard.</p>
                     <ul className="w-full h-max flex flex-wrap">
                       <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Next.js</li>
                       <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">React Js</li>
@@ -239,14 +239,14 @@ export default function Home() {
                     </ul>
                   </div>
                 </a>
-                <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
+                <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col sm:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
                   <div className="absolute inset-0 oily-bg"></div>
-                  <div className="w-[30%] h-max">
+                  <div className="w-full sm:w-[30%] h-max">
                     <p className="text-base text-grey">2023 - Present</p>
                   </div>
-                  <div className="w-[70%] h-max">
+                  <div className="w-full sm:w-[70%] h-max">
                     <h2 className="font-bold text-base text-accent mb-5">Freelance Fullstack Developer</h2>
-                    <p className="text-grey text-base mb-5">As a freelance fullstack developer, I work directly with individuals, startups, and small businesses to build custom web solutions that solve real-world problems. I handle projects end-to-end — from initial consultation and planning to development, deployment, and maintenance.</p>
+                    <p className="text-grey text-base mb-5 text-justify">As a freelance fullstack developer, I work directly with individuals, startups, and small businesses to build custom web solutions that solve real-world problems. I handle projects end-to-end — from initial consultation and planning to development, deployment, and maintenance.</p>
                     <ul className="w-full h-max flex flex-wrap">
                       <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Next.js</li>
                       <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">React Js</li>
@@ -273,14 +273,14 @@ export default function Home() {
                 <div className="w-full h-max">
                   <h2 className="w-full h-max mb-4 text-xl text-accent font-bold">Selected Projects</h2>
                   <div className="h-max w-full">
-                    <a href="https://www.palmhavenhotel.com/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
+                    <a href="https://www.palmhavenhotel.com/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                       <div className="absolute inset-0 oily-bg"></div>
-                      <div className="w-[30%] h-max">
-                        <img src="/palmhaven.png" className="border-2 border-grey rounded h-[75px] w-[100px]" alt="" />
+                      <div className="w-full lg:w-[30%] h-max">
+                        <img src="/palmhaven.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
                       </div>
-                      <div className="w-[70%] h-max">
+                      <div className="w-full lg:w-[70%] h-max">
                         <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Palm Haven Hotel</h2>
-                        <p className="text-grey text-base mb-5">Palm Haven Hotel is a luxury hospitality brand that needed a modern, user-friendly online presence to showcase its accommodations, amenities, and make bookings seamless for guests. I designed and developed a responsive website that combines elegant visuals with functional booking features to reflect the hotel’s high standards of comfort and service.</p>
+                        <p className="text-grey text-base mb-5 text-justify">Palm Haven Hotel is a luxury hospitality brand that needed a modern, user-friendly online presence to showcase its accommodations, amenities, and make bookings seamless for guests. I designed and developed a responsive website that combines elegant visuals with functional booking features to reflect the hotel’s high standards of comfort and service.</p>
                         <ul className="w-full h-max flex flex-wrap">
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Next.js</li>
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Framers Motion</li>
@@ -290,14 +290,14 @@ export default function Home() {
                         </ul>
                       </div>
                     </a>
-                    <a href="https://theblisshomes.co.uk/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
+                    <a href="https://theblisshomes.co.uk/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                       <div className="absolute inset-0 oily-bg"></div>
-                      <div className="w-[30%] h-max">
-                        <img src="/blisshomes.png" className="border-2 border-grey rounded h-[75px] w-[100px]" alt="" />
+                      <div className="w-full lg:w-[30%] h-max">
+                        <img src="/blisshomes.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
                       </div>
-                      <div className="w-[70%] h-max">
+                      <div className="w-full lg:w-[70%] h-max">
                         <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">The Bliss Homes</h2>
-                        <p className="text-grey text-base mb-5">Bliss Homes is a supportive living service based in Kent and London, dedicated to empowering young people in transition—particularly those with mental health challenges, learning disabilities, sensory impairments, or those transitioning out of care—to live independently and confidently. The website I built offers a compassionate, streamlined digital experience that communicates trust, values, and professional care.</p>
+                        <p className="text-grey text-base mb-5 text-justify">Bliss Homes is a supportive living service based in Kent and London, dedicated to empowering young people in transition—particularly those with mental health challenges, learning disabilities, sensory impairments, or those transitioning out of care—to live independently and confidently. The website I built offers a compassionate, streamlined digital experience that communicates trust, values, and professional care.</p>
                         <ul className="w-full h-max flex flex-wrap">
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">React Js</li>
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">CSS</li>
@@ -306,14 +306,14 @@ export default function Home() {
                         </ul>
                       </div>
                     </a>
-                    <a href="https://smartwave.osemen.com.ng/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
+                    <a href="https://smartwave.osemen.com.ng/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                       <div className="absolute inset-0 oily-bg"></div>
-                      <div className="w-[30%] h-max">
-                        <img src="/crocopay.png" className="border-2 border-grey rounded h-[75px] w-[100px]" alt="" />
+                      <div className="w-full lg:w-[30%] h-max">
+                        <img src="/crocopay.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
                       </div>
-                      <div className="w-[70%] h-max">
+                      <div className="w-full lg:w-[70%] h-max">
                         <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">CROCOPAY</h2>
-                        <p className="text-grey text-base mb-5">CROCOPAY is an all-in-one digital platform for buying mobile data, airtime, electricity tokens, and cable TV subscriptions. Built to provide a fast, reliable, and user-friendly experience, it empowers users to make essential payments anytime, anywhere—without friction.</p>
+                        <p className="text-grey text-base mb-5 text-justify">CROCOPAY is an all-in-one digital platform for buying mobile data, airtime, electricity tokens, and cable TV subscriptions. Built to provide a fast, reliable, and user-friendly experience, it empowers users to make essential payments anytime, anywhere—without friction.</p>
                         <ul className="w-full h-max flex flex-wrap">
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">React Js</li>
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">CSS</li>
@@ -330,32 +330,32 @@ export default function Home() {
                   <h2 className="text-primary text-3xl font-bold">From my Blogs</h2>
                 </header>
                 <div className="w-full h-max">
-                  <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
+                  <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                     <div className="absolute inset-0 oily-bg"></div>
-                    <div className="w-[30%] h-max">
-                      <img src="/sreen-recorder.png" className="border-2 border-grey rounded h-[75px] w-[100px]" alt="" />
+                    <div className="w-full lg:w-[30%] h-max">
+                      <img src="/sreen-recorder.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
                     </div>
-                    <div className="w-[70%] h-max">
+                    <div className="w-full lg:w-[70%] h-max">
                       <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Iruap Screen Recorder (Screen Recorder Web App)</h2>
                       <p className="text-grey text-base">A browser-based screen recording tool that enables users to capture their screen ...</p>
                     </div>
                   </a>
-                  <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
+                  <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                     <div className="absolute inset-0 oily-bg"></div>
-                    <div className="w-[30%] h-max">
-                      <img src="/sreen-recorder.png" className="border-2 border-grey rounded h-[75px] w-[100px]" alt="" />
+                    <div className="w-full lg:w-[30%] h-max">
+                      <img src="/sreen-recorder.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
                     </div>
-                    <div className="w-[70%] h-max">
+                    <div className="w-full lg:w-[70%] h-max">
                       <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Iruap Screen Recorder (Screen Recorder Web App)</h2>
                       <p className="text-grey text-base">A browser-based screen recording tool that enables users to capture their screen ...</p>
                     </div>
                   </a>
-                  <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
+                  <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                     <div className="absolute inset-0 oily-bg"></div>
-                    <div className="w-[30%] h-max">
-                      <img src="/sreen-recorder.png" className="border-2 border-grey rounded h-[75px] w-[100px]" alt="" />
+                    <div className="w-full lg:w-[30%] h-max">
+                      <img src="/sreen-recorder.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
                     </div>
-                    <div className="w-[70%] h-max">
+                    <div className="w-full lg:w-[70%] h-max">
                       <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Iruap Screen Recorder (Screen Recorder Web App)</h2>
                       <p className="text-grey text-base">A browser-based screen recording tool that enables users to capture their screen ...</p>
                     </div>
