@@ -115,7 +115,7 @@ export default function Home() {
             initial={{y: -200}}
             animate={{y: 0}}
             transition={{delay:2, duration: 2}}
-            >Web Developer</motion.h2>
+            >Software Engineer</motion.h2>
             <nav className="h-max w-full">
               <ul className="h-max w-max mb-10">
                 <li className="h-max w-max flex items-center group mb-4">
@@ -197,16 +197,16 @@ export default function Home() {
                 </header>
                 <div className="pr-0 sm:pr-10">
                   <p className="text-grey text-base text-justify mb-5">
-                    I am a forward-thinking web developer with a passion for building fast, functional, and user-focused digital experiences. I work primarily with Next.js, Tailwind CSS, and PHP, blending modern front-end frameworks with powerful back-end solutions.
+                    I am a forward-thinking software engineer with a passion for building fast, functional, and user-focused digital experiences. I work primarily with Next.js, Tailwind CSS, and PHP, blending modern front-end frameworks with powerful back-end solutions.
                   </p>
                   <p className="text-grey text-base text-justify mb-5">
                     I love turning ideas into seamless websites and web apps that not only look great but also perform exceptionally. From responsive landing pages to full-stack applications, I build solutions that are clean, scalable, and efficient.
                   </p>
                   <p className="text-grey text-base text-justify mb-5">
-                    I’m currently expanding my skill set by diving into .NET for building powerful and scalable backend systems, and React Native for developing high-performance, cross-platform mobile applications. This allows me to deliver full-stack solutions that work seamlessly across web and mobile platforms, giving clients and users a consistent experience no matter the device.
+                    I also develop mobile and backend solutions using React Native and .NET, enabling me to create high-performance cross-platform applications and robust, scalable server-side systems. This allows me to deliver complete full-stack solutions that work smoothly across web and mobile platforms, ensuring a consistent experience on any device.
                   </p>
                   <p className="text-grey text-base text-justify">
-                    I'm actively seeking opportunities where I can contribute to a collaborative team, solve real problems, and continue growing as a developer while delivering value through thoughtful, efficient code.
+                    I am currently looking for opportunities to build websites for clients and help businesses bring their ideas to life with reliable, high-quality solutions.
                   </p>
                 </div>
               </div>
@@ -221,7 +221,7 @@ export default function Home() {
                   </div>
                   <div className="w-full sm:w-[70%] h-max">
                     <h2 className="font-bold text-base text-accent mb-5">Founder, Iruap Tech Studio LTD</h2>
-                    <p className="text-grey text-base mb-5 text-justify">I am the Founder of Iruap, a full-service web hosting and development platform. It provides domain registration, automated hosting, SSL certificates, professional email solutions, and both custom and template-based website design — all managed through a secure and intuitive client dashboard.</p>
+                    <p className="text-grey text-base mb-5 text-justify">I am the Founder of IruHost, a full-service web hosting and development platform. It provides domain registration, automated hosting, SSL certificates, professional email solutions, and both custom and template-based website design — all managed through a secure and intuitive client dashboard.</p>
                     <ul className="w-full h-max flex flex-wrap">
                       <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Next.js</li>
                       <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">React Js</li>
