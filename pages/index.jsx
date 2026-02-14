@@ -312,8 +312,8 @@ export default function Home() {
                         <img src="/Screenshot (267).png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
                       </div>
                       <div className="w-full lg:w-[70%] h-max">
-                        <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Afrilncer</h2>
-                        <p className="text-grey text-base mb-5 text-justify">CROCOPAY is an all-in-one digital platform for buying mobile data, airtime, electricity tokens, and cable TV subscriptions. Built to provide a fast, reliable, and user-friendly experience, it empowers users to make essential payments anytime, anywhere—without friction.</p>
+                        <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Afrilancer</h2>
+                        <p className="text-grey text-base mb-5 text-justify">Afrilancer is a web application designed to connect freelancers with individuals and businesses looking for skilled professionals across Africa. The platform provides a streamlined space where clients can discover talent, post opportunities, and collaborate efficiently, while freelancers can showcase their skills, build credibility, and access job opportunities tailored to their expertise. Built with a focus on performance, usability, and scalability, Afrilancer aims to simplify the hiring process and empower the growing freelance economy with a reliable, user-friendly digital marketplace.</p>
                         <ul className="w-full h-max flex flex-wrap">
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Next Js</li>
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">CSS</li>
