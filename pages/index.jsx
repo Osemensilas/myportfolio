@@ -326,43 +326,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div id="blog" className="w-full h-max">
-                <header className="h-max w-full py-10">
-                  <h2 className="text-primary text-3xl font-bold">From my Blogs</h2>
-                </header>
-                <div className="w-full h-max">
-                  <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
-                    <div className="absolute inset-0 oily-bg"></div>
-                    <div className="w-full lg:w-[30%] h-max">
-                      <img src="/sreen-recorder.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
-                    </div>
-                    <div className="w-full lg:w-[70%] h-max">
-                      <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Iruap Screen Recorder (Screen Recorder Web App)</h2>
-                      <p className="text-grey text-base">A browser-based screen recording tool that enables users to capture their screen ...</p>
-                    </div>
-                  </a>
-                  <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
-                    <div className="absolute inset-0 oily-bg"></div>
-                    <div className="w-full lg:w-[30%] h-max">
-                      <img src="/sreen-recorder.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
-                    </div>
-                    <div className="w-full lg:w-[70%] h-max">
-                      <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Iruap Screen Recorder (Screen Recorder Web App)</h2>
-                      <p className="text-grey text-base">A browser-based screen recording tool that enables users to capture their screen ...</p>
-                    </div>
-                  </a>
-                  <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
-                    <div className="absolute inset-0 oily-bg"></div>
-                    <div className="w-full lg:w-[30%] h-max">
-                      <img src="/sreen-recorder.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
-                    </div>
-                    <div className="w-full lg:w-[70%] h-max">
-                      <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Iruap Screen Recorder (Screen Recorder Web App)</h2>
-                      <p className="text-grey text-base">A browser-based screen recording tool that enables users to capture their screen ...</p>
-                    </div>
-                  </a>
-                </div>
-              </div>
               <footer id="footer" className="h-max w-full py-20">
                 <div className="w-full sm:w-3/4 h-full flex items-center">
                   <p className="text-accent text-base">© 2025 Osemen Oseobonoite. Open to full-time and freelance opportunities — <button onClick={seeForm} className="text-primary underline">Get in touch</button></p>
