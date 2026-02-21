@@ -220,7 +220,10 @@ export default function Home() {
                     <p className="text-base text-grey">May 2025 - Present</p>
                   </div>
                   <div className="w-full sm:w-[70%] h-max">
-                    <h2 className="font-bold text-base text-accent mb-5">Founder, Iruap Tech Studio LTD</h2>
+                    <div className="w-full h-max flex items-center justify-between mb-5">
+                      <h2 className="font-bold text-base text-accent">Founder, Iruap Tech Studio LTD</h2>
+                      <button className="hidden sm:block text-base text-primary">Visit Site</button>
+                    </div>
                     <p className="text-grey text-base mb-5 text-justify">I am the Founder of IruHost, a full-service web hosting and development platform. It provides domain registration, automated hosting, SSL certificates, professional email solutions, and both custom and template-based website design — all managed through a secure and intuitive client dashboard.</p>
                     <ul className="w-full h-max flex flex-wrap">
                       <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Next.js</li>
@@ -237,7 +240,7 @@ export default function Home() {
                       <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">HTML/HTML5</li>
                       <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">REST API</li>
                     </ul>
-                    <button className="mt-5 text-base text-grey hover:text-primary transition-colors duration-300">Visit Site</button>
+                    <button className="sm:hidden block mt-5 bg-primary py-2 px-4 rounded-full text-base text-grey">Visit Site</button>
                   </div>
                 </a>
                 <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col sm:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
@@ -274,6 +277,40 @@ export default function Home() {
                 <div className="w-full h-max">
                   <h2 className="w-full h-max mb-4 text-xl text-accent font-bold">Selected Projects</h2>
                   <div className="h-max w-full">
+                    <a href="https://www.bakar-x.com/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
+                      <div className="absolute inset-0 oily-bg"></div>
+                      <div className="w-full lg:w-[30%] h-max">
+                        <img src="/bakar-x.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
+                      </div>
+                      <div className="w-full lg:w-[70%] h-max">
+                        <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Bakar-x</h2>
+                        <p className="text-grey text-base mb-5 text-justify">Bakar-X is a corporate engineering and infrastructure website built to showcase the capabilities, services, and project portfolio of a multidisciplinary EPC and technology solutions company. The platform presents their offerings in Engineering, Procurement & Construction, power systems, smart utility metering, digital engineering, and infrastructure development through a structured, professional interface designed for enterprise credibility and client engagement.</p>
+                        <ul className="w-full h-max flex flex-wrap">
+                          <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Next.js</li>
+                          <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Framers Motion</li>
+                          <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Tailwind CSS</li>
+                          <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">PHP</li>
+                          <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">MySql</li>
+                        </ul>
+                      </div>
+                    </a>
+                    <a href="https://www.enermillpower.com/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
+                      <div className="absolute inset-0 oily-bg"></div>
+                      <div className="w-full lg:w-[30%] h-max">
+                        <img src="/enermillpower.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
+                      </div>
+                      <div className="w-full lg:w-[70%] h-max">
+                        <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Enermill Power</h2>
+                        <p className="text-grey text-base mb-5 text-justify">Enermill Power is a renewable energy company that needed a professional, modern website to showcase its solar power solutions and services. I developed a responsive, visually appealing website that highlights the company's commitment to sustainable energy and innovation.</p>
+                        <ul className="w-full h-max flex flex-wrap">
+                          <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Next.js</li>
+                          <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Framers Motion</li>
+                          <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Tailwind CSS</li>
+                          <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">PHP</li>
+                          <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">MySql</li>
+                        </ul>
+                      </div>
+                    </a>
                     <a href="https://www.palmhavenhotel.com/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                       <div className="absolute inset-0 oily-bg"></div>
                       <div className="w-full lg:w-[30%] h-max">
