@@ -237,6 +237,7 @@ export default function Home() {
                       <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">HTML/HTML5</li>
                       <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">REST API</li>
                     </ul>
+                    <button className="mt-5 text-base text-grey hover:text-primary transition-colors duration-300">Visit Site</button>
                   </div>
                 </a>
                 <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col sm:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
