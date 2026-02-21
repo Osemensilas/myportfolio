@@ -222,7 +222,7 @@ export default function Home() {
                   <div className="w-full sm:w-[70%] h-max">
                     <div className="w-full h-max flex items-center justify-between mb-5">
                       <h2 className="font-bold text-base text-accent">Founder, Iruap Tech Studio LTD</h2>
-                      <button className="hidden sm:block text-base text-primary">Visit Site</button>
+                      <div className="hidden sm:block text-base text-primary">Visit Site</div>
                     </div>
                     <p className="text-grey text-base mb-5 text-justify">I am the Founder of IruHost, a full-service web hosting and development platform. It provides domain registration, automated hosting, SSL certificates, professional email solutions, and both custom and template-based website design — all managed through a secure and intuitive client dashboard.</p>
                     <ul className="w-full h-max flex flex-wrap">
@@ -240,8 +240,8 @@ export default function Home() {
                       <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">HTML/HTML5</li>
                       <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">REST API</li>
                     </ul>
-                    <button className="sm:hidden block mt-5 bg-primary py-2 px-4 rounded-full text-base text-grey">Visit Site</button>
                   </div>
+                  <div className="sm:hidden block mt-5 bg-primary py-2 px-4 rounded-full text-base text-grey">Visit Site</div>
                 </a>
                 <a href="#" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col sm:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
                   <div className="absolute inset-0 oily-bg"></div>
@@ -283,7 +283,10 @@ export default function Home() {
                         <img src="/bakar-x.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
                       </div>
                       <div className="w-full lg:w-[70%] h-max">
-                        <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Bakar-x</h2>
+                        <div className="w-full h-max flex items-center justify-between mb-5">
+                          <h2 className="font-bold text-base text-accent group-hover:text-primary">Bakar-x</h2>
+                          <div className="hidden sm:block text-base text-primary">Visit Site</div>
+                        </div>
                         <p className="text-grey text-base mb-5 text-justify">Bakar-X is a corporate engineering and infrastructure website built to showcase the capabilities, services, and project portfolio of a multidisciplinary EPC and technology solutions company. The platform presents their offerings in Engineering, Procurement & Construction, power systems, smart utility metering, digital engineering, and infrastructure development through a structured, professional interface designed for enterprise credibility and client engagement.</p>
                         <ul className="w-full h-max flex flex-wrap">
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Next.js</li>
@@ -293,6 +296,7 @@ export default function Home() {
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">MySql</li>
                         </ul>
                       </div>
+                      <div className="sm:hidden block mt-5 bg-primary py-2 px-4 rounded-full text-base text-grey">Visit Site</div>
                     </a>
                     <a href="https://www.enermillpower.com/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                       <div className="absolute inset-0 oily-bg"></div>
@@ -300,7 +304,10 @@ export default function Home() {
                         <img src="/enermillpower.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
                       </div>
                       <div className="w-full lg:w-[70%] h-max">
-                        <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Enermill Power</h2>
+                        <div className="w-full h-max flex items-center justify-between mb-5">
+                          <h2 className="font-bold text-base text-accent group-hover:text-primary">Enermill Power</h2>
+                          <div className="hidden sm:block text-base text-primary">Visit Site</div>
+                        </div>
                         <p className="text-grey text-base mb-5 text-justify">Enermill Power is a renewable energy company that needed a professional, modern website to showcase its solar power solutions and services. I developed a responsive, visually appealing website that highlights the company's commitment to sustainable energy and innovation.</p>
                         <ul className="w-full h-max flex flex-wrap">
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Next.js</li>
@@ -310,6 +317,7 @@ export default function Home() {
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">MySql</li>
                         </ul>
                       </div>
+                      <div className="sm:hidden block mt-5 bg-primary py-2 px-4 rounded-full text-base text-grey">Visit Site</div>
                     </a>
                     <a href="https://www.palmhavenhotel.com/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                       <div className="absolute inset-0 oily-bg"></div>
@@ -317,7 +325,10 @@ export default function Home() {
                         <img src="/palmhaven.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
                       </div>
                       <div className="w-full lg:w-[70%] h-max">
-                        <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Palm Haven Hotel</h2>
+                        <div className="w-full h-max flex items-center justify-between mb-5">
+                          <h2 className="font-bold text-base text-accent group-hover:text-primary">Palm Haven Hotel</h2>
+                          <div className="hidden sm:block text-base text-primary">Visit Site</div>
+                        </div>
                         <p className="text-grey text-base mb-5 text-justify">Palm Haven Hotel is a luxury hospitality brand that needed a modern, user-friendly online presence to showcase its accommodations, amenities, and make bookings seamless for guests. I designed and developed a responsive website that combines elegant visuals with functional booking features to reflect the hotel’s high standards of comfort and service.</p>
                         <ul className="w-full h-max flex flex-wrap">
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Next.js</li>
@@ -327,6 +338,7 @@ export default function Home() {
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">MySql</li>
                         </ul>
                       </div>
+                      <div className="sm:hidden block mt-5 bg-primary py-2 px-4 rounded-full text-base text-grey">Visit Site</div>
                     </a>
                     <a href="https://theblisshomes.co.uk/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                       <div className="absolute inset-0 oily-bg"></div>
@@ -334,7 +346,10 @@ export default function Home() {
                         <img src="/blisshomes.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
                       </div>
                       <div className="w-full lg:w-[70%] h-max">
-                        <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">The Bliss Homes</h2>
+                        <div className="w-full h-max flex items-center justify-between mb-5">
+                          <h2 className="font-bold text-base text-accent group-hover:text-primary">The Bliss Homes</h2>
+                          <div className="hidden sm:block text-base text-primary">Visit Site</div>
+                        </div>
                         <p className="text-grey text-base mb-5 text-justify">Bliss Homes is a supportive living service based in Kent and London, dedicated to empowering young people in transition—particularly those with mental health challenges, learning disabilities, sensory impairments, or those transitioning out of care—to live independently and confidently. The website I built offers a compassionate, streamlined digital experience that communicates trust, values, and professional care.</p>
                         <ul className="w-full h-max flex flex-wrap">
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">React Js</li>
@@ -343,6 +358,7 @@ export default function Home() {
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">MySql</li>
                         </ul>
                       </div>
+                      <div className="sm:hidden block mt-5 bg-primary py-2 px-4 rounded-full text-base text-grey">Visit Site</div>
                     </a>
                     <a href="https://afrilancer.vercel.app/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                       <div className="absolute inset-0 oily-bg"></div>
@@ -350,7 +366,10 @@ export default function Home() {
                         <img src="/Screenshot (267).png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
                       </div>
                       <div className="w-full lg:w-[70%] h-max">
-                        <h2 className="font-bold text-base text-accent mb-5 group-hover:text-primary">Afrilancer</h2>
+                        <div className="w-full h-max flex items-center justify-between mb-5">
+                          <h2 className="font-bold text-base text-accent group-hover:text-primary">Afrilancer</h2>
+                          <div className="hidden sm:block text-base text-primary">Visit Site</div>
+                        </div>
                         <p className="text-grey text-base mb-5 text-justify">Afrilancer is a web application designed to connect freelancers with individuals and businesses looking for skilled professionals across Africa. The platform provides a streamlined space where clients can discover talent, post opportunities, and collaborate efficiently, while freelancers can showcase their skills, build credibility, and access job opportunities tailored to their expertise. Built with a focus on performance, usability, and scalability, Afrilancer aims to simplify the hiring process and empower the growing freelance economy with a reliable, user-friendly digital marketplace.</p>
                         <ul className="w-full h-max flex flex-wrap">
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">Next Js</li>
@@ -360,6 +379,7 @@ export default function Home() {
                           <li className="text-primary mb-1 mr-1 text-sm py-1 px-4 rounded-full bg-grey">MySql</li>
                         </ul>
                       </div>
+                      <div className="sm:hidden block mt-5 bg-primary py-2 px-4 rounded-full text-base text-grey">Visit Site</div>
                     </a>
                   </div>
                 </div>
