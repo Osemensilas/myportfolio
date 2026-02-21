@@ -363,7 +363,7 @@ export default function Home() {
                     <a href="https://afrilancer.vercel.app/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col lg:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out group">
                       <div className="absolute inset-0 oily-bg"></div>
                       <div className="w-full lg:w-[30%] h-max">
-                        <img src="/Screenshot (267).png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
+                        <img src="/afrilancer.png" className="border-2 border-grey rounded lg:h-[75px] w-full aspect-square lg:w-[100px]" alt="" />
                       </div>
                       <div className="w-full lg:w-[70%] h-max">
                         <div className="w-full h-max flex items-center justify-between mb-5">
