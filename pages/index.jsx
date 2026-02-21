@@ -103,7 +103,7 @@ export default function Home() {
       <section id="pc-screen" className="relative after:absolute after:content-[''] after:top-0 after:left-0 after:h-[100%] after:w-[100%] after:bg-offBlack after:opacity-5 w-screen h-screen">
         <div className="h-full w-full block sm:flex relative z-10">
           <div className="h-full w-full sm:w-1/2 relative sm:fixed top-0 left-0 flex items-center justify-center">
-           <div className="h-max w-3/4">
+           <div className="h-max w-full">
             <motion.h1 
             className="text-3xl font-bold text-accent mb-10"
             initial={{y: -100}}
