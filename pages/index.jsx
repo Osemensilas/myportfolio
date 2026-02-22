@@ -90,6 +90,14 @@ export default function Home() {
           })
           
           console.log(response.data);
+          if (response.data.status === "success"){
+            setFormData({
+              'fullname': '',
+              'email': '',
+              'message': '',
+            });
+            setContactSuccess('Message sent successfully!');
+          }
         }catch(err){
           console.log("Error submitting form: ", err);
         }
