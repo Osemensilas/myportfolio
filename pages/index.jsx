@@ -81,7 +81,7 @@ export default function Home() {
         }
 
         try{
-          let url = "https://www.osemen.com.ng/consult.php";
+          let url = "https://backend.iruhost.com/api/message-silas";
 
           const response = await axios.post(url, formData, {
               headers: {
