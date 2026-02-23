@@ -97,11 +97,18 @@ export default function Home() {
               'message': '',
             });
             setContactSuccess('Message sent successfully!');
+            startTimer();
           }
         }catch(err){
           console.log("Error submitting form: ", err);
         }
       }
+
+      const startTimer = () => {
+        setTimeout(() => {
+          setContactSuccess('');
+        }, 5000);
+      };
 
   return (
     <>
@@ -222,7 +229,7 @@ export default function Home() {
                 <header className="h-max w-full py-10">
                   <h2 className="text-primary text-3xl font-bold">Experience</h2>
                 </header>
-                <a href="https://iruap-studio.vercel.app/" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col sm:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
+                <a href="https://iruhost.com" target="__blank" className="relative mb-10 w-[100%] sm:w-[95%] p-[10px] h-max flex flex-col sm:flex-row items-start hover:shadow-xl cursor-pointer transition-all duration-300 ease-in-out">
                   <div className="absolute inset-0 oily-bg"></div>
                   <div className="w-full sm:w-[30%] h-max">
                     <p className="text-base text-grey">May 2025 - Present</p>
@@ -394,7 +401,7 @@ export default function Home() {
               </div>
               <footer id="footer" className="h-max w-full py-20">
                 <div className="w-full sm:w-3/4 h-full flex items-center">
-                  <p className="text-accent text-base">© 2025 Osemen Oseobonoite. Open to full-time and freelance opportunities — <button onClick={seeForm} className="text-primary underline">Get in touch</button></p>
+                  <p className="text-accent text-base">© 2025 Osemen Oseobonoite. Making businesses shine online — <button onClick={seeForm} className="text-primary underline">Get in touch</button></p>
                 </div>
               </footer>
             </div>
