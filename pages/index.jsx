@@ -437,7 +437,7 @@ export default function Home() {
                     </div>
                     <div className="w-full h-max mb-3">
                         <div className="h-max flex flex-col" style={{width: '100%'}}>
-                            <label htmlFor="message" className="text-grey mb-1 hidden sm:block">Suite/Cottage:</label>
+                            <label htmlFor="message" className="text-grey mb-1 hidden sm:block">Message:</label>
                             <textarea name="message" className="p-3 border rounded border-grey min-h-[150px] max-h-[150px] min-w-[100%] max-w-[100%]" value={formData.message} onChange={handleChanged} id="message"></textarea>
                         </div>
                     </div>
