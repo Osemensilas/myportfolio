@@ -107,6 +107,7 @@ export default function Home() {
       const startTimer = () => {
         setTimeout(() => {
           setContactSuccess('');
+          setFormVisible("after:absolute w-screen after:w-[100%] h-screen after:h-[100%] after:content-[''] top-0 left-0 after:bg-black after:opacity-50 px-2 fixed top-0 left-0 z-20 hidden transition-all duration-300 ease-in-out");
         }, 5000);
       };
 
@@ -153,7 +154,7 @@ export default function Home() {
             animate={{opacity: 1, y: 0}}
             transition={{duration: 1.5}}
             >
-              <button onClick={seeForm} className="py-3 px-10 rounded-full bg-primary border-[2px] border-transparent hover:border-primary hover:text-primary hover:bg-transparent text-offBlack transition-all duration-300 ease-in-out">Contact Me</button>
+              <button onClick={seeForm} className="py-3 px-10 rounded-full bg-primary border-[2px] border-transparent hover:border-primary hover:text-primary hover:bg-transparent text-offBlack transition-all duration-300 ease-in-out">Book Free Consultation</button>
             </motion.div>
             <div className="flex items-center justify-center w-max h-full mb-20">
               <motion.a 
@@ -189,7 +190,7 @@ export default function Home() {
               >
                   <i className="fa fa-linkedin-square text-primary" style={{fontSize: "30px"}}></i>
               </motion.a>
-              <motion.a href="https://wa.me/8168318983" target="_blank" 
+              <motion.a href="https://wa.me/9054060454" target="_blank" 
               className="mr-10"
               initial={{opacity: 0, x: -100}}
               animate={{opacity: 1, x: 0}}
@@ -401,7 +402,7 @@ export default function Home() {
               </div>
               <footer id="footer" className="h-max w-full py-20">
                 <div className="w-full sm:w-3/4 h-full flex items-center">
-                  <p className="text-accent text-base">© 2025 Osemen Oseobonoite. Making businesses shine online — <button onClick={seeForm} className="text-primary underline">Get in touch</button></p>
+                  <p className="text-accent text-base">© 2025 Osemen Oseobonoite. Making businesses shine online — <button onClick={seeForm} className="text-primary underline">Get Free Consultation</button></p>
                 </div>
               </footer>
             </div>
