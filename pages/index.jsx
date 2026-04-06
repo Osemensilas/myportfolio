@@ -114,35 +114,35 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home Page - Osemen Silas</title>
+        <title>Osemen Silas - Web Developer & Software Engineer in Abuja, Nigeria | Next.js & Full-stack Solutions</title>
       </Head>
       <section id="pc-screen" className="relative after:absolute after:content-[''] after:top-0 after:left-0 after:h-[100%] after:w-[100%] after:bg-offBlack after:opacity-5 w-screen h-screen">
         <div className="h-full w-full block sm:flex relative z-10">
           <div className="h-full w-full sm:w-1/2 relative sm:fixed top-0 left-0 flex items-center justify-center">
-           <div className="h-max sm:w-3/4 w-full px-4 sm:px-0">
-            <motion.h1 
+           <div className="h-max sm:w-3/4 w-full px-3 sm:px-0">
+            <motion.h2 
             className="text-3xl font-bold text-accent mb-10"
             initial={{y: -100}}
             animate={{y: 0}}
             transition={{duration: 2}}
-            >Osemen Silas</motion.h1>
-            <motion.h2 
+            >Osemen Silas</motion.h2>
+            <motion.h1 
             className="text-4xl font-bold text-primary mb-10"
             initial={{y: -200}}
             animate={{y: 0}}
             transition={{delay:2, duration: 2}}
-            >Software Engineer</motion.h2>
+            >Software Engineer</motion.h1>
             <nav className="h-max w-full">
-              <ul className="h-max w-max mb-10">
-                <li className="h-max w-max flex items-center group mb-4">
+              <ul className="h-max w-max mb-5">
+                <li className="h-max w-max flex items-center group mb-3">
                   <span className="mr-2 h-[2px] w-[75px] bg-grey group-hover:bg-accent rounded transition-all duration-500 group-hover:w-[100px]"></span>
                   <Link href={"#about"} className="text-grey group-hover:text-accent text-base group-hover:text-xl">About</Link>
                 </li>
-                <li className="h-max w-max flex items-center group mb-4">
+                <li className="h-max w-max flex items-center group mb-3">
                   <span className="mr-2 h-[2px] w-[75px] bg-grey group-hover:bg-accent rounded transition-all duration-500 group-hover:w-[100px]"></span>
                   <Link href={"#experience"} className="text-grey group-hover:text-accent text-base group-hover:text-xl">Experience</Link>
                 </li>
-                <li className="h-max w-max flex items-center group mb-4">
+                <li className="h-max w-max flex items-center group mb-3">
                   <span className="mr-2 h-[2px] w-[75px] bg-grey group-hover:bg-accent rounded transition-all duration-500 group-hover:w-[100px]"></span>
                   <Link href={"#project"} className="text-grey group-hover:text-accent text-base group-hover:text-xl">Project</Link>
                 </li>
