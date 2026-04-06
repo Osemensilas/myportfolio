@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useState, useEffect } from "react";
 import { motion }from 'framer-motion';
 import axios from "axios";
+import Packages from "@/components/Packages";
 
 const CursorSpotlight = () => {
   useEffect(() => {
@@ -141,9 +142,13 @@ export default function Home() {
                   <span className="mr-2 h-[2px] w-[75px] bg-grey group-hover:bg-accent rounded transition-all duration-500 group-hover:w-[100px]"></span>
                   <Link href={"#experience"} className="text-grey group-hover:text-accent text-base group-hover:text-xl">Experience</Link>
                 </li>
-                <li className="h-max w-max flex items-center group">
+                <li className="h-max w-max flex items-center group mb-4">
                   <span className="mr-2 h-[2px] w-[75px] bg-grey group-hover:bg-accent rounded transition-all duration-500 group-hover:w-[100px]"></span>
                   <Link href={"#project"} className="text-grey group-hover:text-accent text-base group-hover:text-xl">Project</Link>
+                </li>
+                <li className="h-max w-max flex items-center group">
+                  <span className="mr-2 h-[2px] w-[75px] bg-grey group-hover:bg-accent rounded transition-all duration-500 group-hover:w-[100px]"></span>
+                  <Link href={"#packages"} className="text-grey group-hover:text-accent text-base group-hover:text-xl">Packages</Link>
                 </li>
               </ul>
             </nav>
@@ -397,6 +402,14 @@ export default function Home() {
                       <div className="sm:hidden block mt-5 bg-primary py-2 px-4 rounded-full text-base text-grey">Visit Site</div>
                     </a>
                   </div>
+                </div>
+              </div>
+              <div id="packages" className="w-full h-max">
+                <header className="h-max w-full py-10">
+                  <h2 className="text-primary text-3xl font-bold">Packages</h2>
+                </header>
+                <div className="w-full h-max">
+                  <Packages />
                 </div>
               </div>
               <footer id="footer" className="h-max w-full py-20">
